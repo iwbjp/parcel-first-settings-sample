@@ -1,0 +1,19 @@
+{
+  "name": "my-parcel",
+  "version": "1.0.0",
+  "description": "Parcelの初期設定サンプル",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "rm -f build/*.{css,map,js,jpg,png,gif}; parcel build index.html -d build"
+  },
+  "keywords": [],
+  "author": "iwbjp",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "cssnano": "^4.1.10",
+    "sass": "^1.26.9",
+    "typescript": "^3.9.7"
+  }
+}
